@@ -2,14 +2,21 @@
   "name": "blotify-be",
   "version": "1.0.0",
   "description": "Personal music streamer",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "jest --verbose --runInBand --testTimeout=30000"
+    "test": "jest --verbose --runInBand --testTimeout=30000",
+    "test:watch": "jest --testTimeout=30000 --verbose --runInBand --watch",
+    "start": "node server.js",
+    "start:watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ianandrewson/blotify-be.git"
   },
+  "jest" : {
+    "testEnvironment": "node"
+  },
+  "keywords": [],
   "author": "Ian Andrewson",
   "license": "ISC",
   "bugs": {
