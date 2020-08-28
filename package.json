@@ -1,0 +1,29 @@
+{
+  "name": "blotify-be",
+  "version": "1.0.0",
+  "description": "Personal music streamer",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --runInBand --testTimeout=30000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianandrewson/blotify-be.git"
+  },
+  "author": "Ian Andrewson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianandrewson/blotify-be/issues"
+  },
+  "homepage": "https://github.com/ianandrewson/blotify-be#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.3.3",
+    "pg-format": "^1.0.4"
+  }
+}
