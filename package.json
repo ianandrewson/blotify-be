@@ -25,5 +25,10 @@
     "jsonwebtoken": "^8.5.1",
     "pg": "^8.3.3",
     "pg-format": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.10",
+    "eslint": "^7.7.0",
+    "jest": "^26.4.2"
   }
 }
