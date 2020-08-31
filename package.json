@@ -7,7 +7,10 @@
     "test": "jest --verbose --runInBand --testTimeout=30000",
     "test:watch": "jest --testTimeout=30000 --verbose --runInBand --watch",
     "start": "node server.js",
-    "start:watch": "nodemon server.js"
+    "start:watch": "nodemon server.js",
+    "create_tables": "node lib/db/seedFuncs/createScript.js",
+    "drop_tables": "node lib/db/seedFuncs/dropScript.js",
+    "seed_tables": "node lib/db/seedFuncs/seedScript.js"
   },
   "repository": {
     "type": "git",

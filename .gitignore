@@ -1,4 +1,7 @@
 ### Node ###
+# seed data
+**/seedData/*
+
 # dotenv
 .env*
 
