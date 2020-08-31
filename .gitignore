@@ -1,6 +1,6 @@
 ### Node ###
 # seed data
-**/seedData
+**/seedData/*
 
 # dotenv
 .env*
