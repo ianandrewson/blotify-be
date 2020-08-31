@@ -9,7 +9,8 @@
     "start": "node server.js",
     "start:watch": "nodemon server.js",
     "create_tables": "node lib/db/seedFuncs/createScript.js",
-    "drop_tables": "node lib/db/seedFuncs/dropScript.js"
+    "drop_tables": "node lib/db/seedFuncs/dropScript.js",
+    "seed_tables": "node lib/db/seedFuncs/seedScript.js"
   },
   "repository": {
     "type": "git",
