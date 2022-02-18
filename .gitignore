@@ -3,7 +3,7 @@
 **/seedData/*
 
 # dotenv
-.env*
+.env
 
 # Logs
 logs
